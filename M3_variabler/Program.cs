@@ -37,7 +37,19 @@ namespace M3_variabler
             TimeSpan ts2 = new TimeSpan(14, 00, 00);
             Console.WriteLine(ts2);
 
-             
+            //brug const ved constante variabler
+
+           
+            i = 1000000000;
+            //short j = 12;
+            checked
+            {
+            //    short j = (short)i;
+       
+            }
+
+            // meget anvendelig til konvertering af type
+            short j = System.Convert.ToInt16(i);
 
            
 
