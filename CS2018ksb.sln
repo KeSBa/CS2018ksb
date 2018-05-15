@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "månedsLønGennmsnit", "må
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArbejdeMedStrenge", "ArbejdeMedStrenge\ArbejdeMedStrenge.csproj", "{D8EF3766-EC98-4ABA-992A-161AEEF4BC85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10Tabel", "10Tabel\10Tabel.csproj", "{8C1535D7-8C50-488D-82E9-9FDFD9E831DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D8EF3766-EC98-4ABA-992A-161AEEF4BC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8EF3766-EC98-4ABA-992A-161AEEF4BC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8EF3766-EC98-4ABA-992A-161AEEF4BC85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C1535D7-8C50-488D-82E9-9FDFD9E831DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1535D7-8C50-488D-82E9-9FDFD9E831DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C1535D7-8C50-488D-82E9-9FDFD9E831DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1535D7-8C50-488D-82E9-9FDFD9E831DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -19,9 +19,9 @@ namespace ArbejdeMedStrenge
             string navnLille = samletNavn.ToLower();
             string del = samletNavn.Substring(7, 4);
 
-            string[] strSplit = null;
-            strSplit[0] = fornavn as string;
-            strSplit[1] = efternavn as string;
+            string[] strSplit = new string[2];
+            strSplit[0] = fornavn;
+            strSplit[1] = efternavn;
 
 
             string[] strSplit2 = samletNavn.Split(' ');
