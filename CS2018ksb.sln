@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overload", "Overload\Overlo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rekursion", "Rekursion\Rekursion.csproj", "{414B5830-C332-4AB6-AA60-0F46C2872DC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person", "Person\Person.csproj", "{C071E5D5-F7FE-45AB-A147-731D89A912E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{414B5830-C332-4AB6-AA60-0F46C2872DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{414B5830-C332-4AB6-AA60-0F46C2872DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{414B5830-C332-4AB6-AA60-0F46C2872DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C071E5D5-F7FE-45AB-A147-731D89A912E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C071E5D5-F7FE-45AB-A147-731D89A912E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C071E5D5-F7FE-45AB-A147-731D89A912E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C071E5D5-F7FE-45AB-A147-731D89A912E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
