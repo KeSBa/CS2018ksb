@@ -11,6 +11,7 @@ namespace Rekursion
         static void Main(string[] args)
         {
             Print(1, 10);
+        
         }
 
         static void Print(int start, int stop)
