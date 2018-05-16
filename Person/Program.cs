@@ -18,6 +18,8 @@ namespace Person
             int Alder = p1.EstimatedLife();
             Console.WriteLine(Alder);
             Console.ReadKey();
+
+            Person pp = new Person()
         }
 
         internal class Person
@@ -37,21 +39,27 @@ namespace Person
                 int y = DateTime.Now.Year;
                 return y - this.Fødselsår;
             }
+
             //default constructor
             public Person()
             {
                 this.Fornavn = "";
                 this.Efternavn = "";
-
             }
 
-            //Custom constructor // chained 
+            //Custom constructor // chained
+            
+            /// <summary>
+            /// Giver data om en person.
+            /// </summary>
+            /// <param name="efternavn"></param>
+            /// <param name="fornavn"></param>
+            /// <param name="fødselsår"></param>
             public Person(string efternavn, string fornavn, int fødselsår) :this()
             {
                 this.Fødselsår = fødselsår;
                 this.Fornavn = fornavn.ToLower();
                 this.Efternavn = efternavn.ToUpper();
-
             }
         }
     }
